@@ -30,9 +30,12 @@
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="c9602e6f-617b-4814-b654-41141298199c" dataset="heallife_hospitaltraining.staff_attendance" active-filter-id="" />
     <filter-actions connection-id="c9602e6f-617b-4814-b654-41141298199c" dataset="heallife_hospitaltraining.staff" active-filter-id="fe0444ff-bc04-4de2-a179-016dae4dff66">
-      <filter id="fe0444ff-bc04-4de2-a179-016dae4dff66" name="abc" temporary="false" custom-name="false" type="basic" join-type="AND">
+      <filter id="fe0444ff-bc04-4de2-a179-016dae4dff66" name="1 &amp; 2" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="1" active="true" />
         <condition column="id" operator="=" value="2" active="true" />
+      </filter>
+      <filter id="f0dd13cf-6178-4326-9877-22077087c2f8" name="1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="1" active="true" />
       </filter>
     </filter-actions>
     <filter-actions connection-id="c9602e6f-617b-4814-b654-41141298199c" dataset="heallife_hospitaltraining.ambulance_call" active-filter-id="" />
